@@ -1,0 +1,66 @@
+//Main Page Fix
+div.hero{
+  margin-bottom: 60%;
+}
+
+div#hero-area{
+  position: relative;
+  div#bg-cover{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    opacity: 0.6;
+    z-index: 1;
+  }
+  img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    @media screen and (min-width: 0px !important) and (max-width: 918px !important){
+      height: 100vh;
+    };
+    @media screen and (min-width: 920px !important) and (max-width: 1024px !important){
+      height: 45vh;
+    }
+  }
+  div#hero-content{
+    position: absolute;
+    color: $white;
+    text-align: center;
+    top: 15vh;
+    left: 1%;
+    right: 1%;
+    z-index: 2;
+    h1{
+      font-size: 80px;
+    }
+    div#description{
+      margin-top: -50px;
+      #contact-number:before{
+        content: url('./../images/svg/mobile.svg');
+        display: inline-block;
+        transform: translateY(2px);
+      }
+      #contact-email:before{
+        content: url('./../images/svg/email.svg');
+        display: inline-block;
+      }
+    }
+    button{
+      background: $red;
+      margin-top: 2%;
+      outline: none;
+      border: none;
+      color: white;
+      width: 300px;
+      height: 80px;
+      border-radius: 8px;
+      &:hover{
+        background: $redvalencia;
+      }
+    }
+  }
+}

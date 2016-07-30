@@ -1,0 +1,35 @@
+*{
+  font-family: roboto;
+  margin: 0;
+  padding: 0;
+  transition: 300ms linear;
+}
+.clearfix:after, .clearfix:before{
+  content: " ";
+  display: table;
+}
+.clearfix{
+  clear: both;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #fff;
+}
+a:visited{
+  color: #fff;
+}
+a:hover{
+  color: $ebony;
+}
+a:active{
+  color: $ebony;
+}
+
+//Responsive Nav Fix
+@media screen and (max-width: 1040px){
+  body{
+    overflow-x: hidden;
+  }
+}
