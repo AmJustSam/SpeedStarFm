@@ -5,7 +5,7 @@ A website created for a moving company in dubai.
 #Contribution
 Steps to get started 
 ```
-git clone https://github.com/Klo1029/SpeedStarFm.git
+git clone https://github.com/AmJustSam/SpeedStarFm.git
 cd speedstarfm
 npm install
 gulp
