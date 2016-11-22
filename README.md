@@ -1,4 +1,4 @@
-# [SpeedStarFm](https://klo1029.github.io/SpeedStarFm/)
+# [SpeedStarFm](https://AmJustSam.github.io/SpeedStarFm/)
 
 A website created for a moving company in dubai.
 
